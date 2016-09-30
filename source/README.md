@@ -40,7 +40,7 @@ So, before using Laravel, make sure you have Composer installed on your machine.
 * Step1: Install any git client of your choice. These are recommended
     * [SourceTree](https://www.sourcetreeapp.com/download/) //easier to install if you're using mobile data
     * [GitHub Desktop](https://desktop.github.com/)
-* If you have not installed [Composer](https://getcomposer.org/) already, install it and add the path to composer.phar to your path-variables.
+* If you have not installed Composer already, install it from [here](https://getcomposer.org/download/). Use the windows installer package if your OS is Windows.
 * Clone your fork of the this repository into a folder/directory in your **htdocs** (for XAMPP users) or **www** (WAMP) directory
 * After a successful clone, open your windows command prompt (Linux Shell).
 * Navigate to the project directory **project-clone/source/** and run the following command:
