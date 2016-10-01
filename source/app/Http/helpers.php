@@ -1,6 +1,6 @@
 <?php
 /**
- * Project: academy.zeesaa.com
+ * Project: srcng.com
  * Author:  Chukwuemeka Nwobodo (jcnwobodo@gmail.com)
  * Date:    9/17/2016
  * Time:    12:54 PM
@@ -11,7 +11,12 @@ define('USER_STATUS_ACTIVE', User::STATUS_ACTIVE);
 define('USER_STATUS_INACTIVE', User::STATUS_INACTIVE);
 define('USER_ROLE_SUPER_ADMIN', User::ROLE_SUPER_ADMIN);
 define('USER_ROLE_CONTENT_ADMIN', User::ROLE_CONTENT_ADMIN);
-define('USER_ROLE_ACADEMIC', User::ROLE_ACADEMIC);
+define('USER_ROLE_ACADEMIC', User::ROLE_MEMBER);
+
+function redirectIfAuthSuccess()
+{
+    return url('/');
+}
 
 /**
  * @param string $action        Controller@method
