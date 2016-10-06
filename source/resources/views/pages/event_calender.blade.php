@@ -9,7 +9,8 @@
  ?>
 
  @extends("app")
-
+  <script type="text/javascript" src="jquery-ui.js"></script>
+  <link rel="stylesheet" type="text/css" href="jquery-ui.css">
 
  @section
  	<div class="mdl-grid">
