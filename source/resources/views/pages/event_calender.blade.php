@@ -5,5 +5,12 @@
  * Date:    9/29/2016
  * Time:    2:55 PM
  **/
- 
+ ?>
+ @extends("app")
+
+
+ @section
+
+
+ @stop
  
