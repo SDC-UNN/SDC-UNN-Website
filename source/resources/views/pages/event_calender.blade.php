@@ -25,4 +25,3 @@
 
  	</div>
  @stop
- <script type="text/javascript" src="mdl-datepicker-master/mdl-datepicker.js"></script> <!-- Added the MDL Date Picker, Get it on Github Here https://github.com/trentsp/mdl-datepicker and it works with Jquery-->
