@@ -64,7 +64,7 @@
         }
       #mainHeaderCont{
       	background: gray;
-      	height: 300px;
+      	height: 200px;
       	padding-top: 40px;
       }  
         #mainHeader{
